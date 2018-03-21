@@ -154,7 +154,6 @@ class DTWC_Maintenance_Switch {
 
     public function maintenance_mode() {
 
-        //echo '<script>console.warn("success")</script>';
         if( ! current_user_can( 'edit_theme_options' ) || ! is_user_logged_in() ) {
             $title= get_bloginfo('title');
             $message = '<h2 style="font-size:18px;color:red">' . $title . ' website is currently offline</h2><br />We are performing scheduled maintenance. We will be back online shortly!';
@@ -177,14 +176,7 @@ function run_dtwc_maintenance_mode() {
     }
 
     $dtwc_maintenance_options = new DTWC_Maintenance_Options();
-	$dtwc_maintenance_switch = new DTWC_Maintenance_Switch($maintenance_switch);
+    $dtwc_maintenance_switch = new DTWC_Maintenance_Switch($maintenance_switch);
 
 }
 run_dtwc_maintenance_mode();
-
-
-// settings page
-
-// add checkbox to select on or off
-
-// add checkboxes for users to allow on or off
