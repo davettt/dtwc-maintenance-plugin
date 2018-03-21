@@ -112,7 +112,7 @@ class DTWC_Maintenance_Options {
 
         ?>
         <input type="checkbox" id="dtwc_maintenance_checkbox_field_0" name="dtwc_maintenance_settings[dtwc_maintenance_checkbox_field_0]" <?php checked( $checkbox_0, 1); ?> value="1">
-    Select this to switch on maintenenance mode
+    Select this to switch on maintenance mode
     <?php 
     }
     
