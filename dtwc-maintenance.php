@@ -7,7 +7,7 @@
  * @author  David Tiong
  * 
  * Plugin Name:  DTWC Maintenance
- * Plugin URI:   https://www.davidtiong.com
+ * Plugin URI:   https://github.com/davettt/dtwc-maintenance-plugin
  * Description:  Simple Maintenance Mode plugin
  * Version:      1.0.0
  * Author:       David Tiong
