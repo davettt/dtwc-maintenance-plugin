@@ -12,5 +12,9 @@ You may need to clear your hosting cache.
 To deactivate maintenance mode, uncheck the checkbox and save settings.
 
 == Changelog ==
+
+= 1.0.1 =
+* Fix: use int for wp die args
+
 = 1.0.0 =
 * First release

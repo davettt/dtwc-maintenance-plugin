@@ -9,7 +9,7 @@
  * Plugin Name:  DTWC Maintenance
  * Plugin URI:   https://github.com/davettt/dtwc-maintenance-plugin
  * Description:  Simple Maintenance Mode plugin
- * Version:      1.0.0
+ * Version:      1.0.1
  * Author:       David Tiong
  * Author URI:   https://www.davidtiong.com
  * License:      GPL3
@@ -157,7 +157,7 @@ class DTWC_Maintenance_Switch {
         if( ! current_user_can( 'edit_theme_options' ) || ! is_user_logged_in() ) {
             $title= get_bloginfo('title');
             $message = '<h2 style="font-size:18px;color:red">' . $title . ' website is currently offline</h2><br />We are performing scheduled maintenance. We will be back online shortly!';
-            $args = '503';
+            $args = 503;
             wp_die( $message, $title, $args );
         }
 
