@@ -13,6 +13,10 @@ To deactivate maintenance mode, uncheck the checkbox and save settings.
 
 == Changelog ==
 
+= 1.0.2 =
+* Released: July 12, 2018
+* New: settings for http status codes, and content
+
 = 1.0.1 =
 * Released: July 11, 2018
 * Fix: use int for wp die args
